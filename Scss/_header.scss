@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    &__title {
+        list-style: none;
+        display: flex;
+        gap: 35px;
+    }
+    &__a {
+        text-decoration: none;
+        color: #83888f;
+    }
+}
