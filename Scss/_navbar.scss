@@ -1,0 +1,61 @@
+.navbar {
+    &__title {
+        margin-top: 180px;
+        font-family: Fraunces 9pt;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #83888f;
+    }
+    &__hr {
+        margin-top: 60px;
+        background: url(../Img/png/Path-2.png) 0 center;
+        background-repeat: no-repeat;
+        // gap: 100px;
+    }
+    &__img {
+        padding-right: 345px;
+    }
+    &__box {
+        display: flex;
+        margin-top: 40px;
+    }
+    &__blok {
+        width: 285px;
+        top: 210px;
+        margin-right: 80px;
+    }
+    &__number {
+        font-family: Fraunces 9pt;
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 72px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #fdd6ba;
+    }
+    &__name {
+        font-family: Fraunces 9pt;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 155px;
+        height: 73px;
+        top: 110px;
+        color: #333d4b;
+        margin-top: 30px;
+    }
+    &__text {
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 30px;
+    }
+}
