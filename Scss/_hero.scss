@@ -43,6 +43,13 @@
         border: none;
         border-radius: 6px;
     }
+    &__btn:hover {
+        background: #66D2CF;
+
+    }
+    &__btn:active {
+        transition: all;
+    }
 }
 .hero--about {
     height: 450px;
