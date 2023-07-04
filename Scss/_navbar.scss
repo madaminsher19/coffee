@@ -1,4 +1,11 @@
 .navbar {
+    &__complate {
+        background: #282f38;
+        border-radius: 8px;
+        padding: 70px;
+        margin-top: 40px;
+        color: #ffffff90;
+    }
     &__title {
         margin-top: 300px;
         font-family: Fraunces 9pt;
@@ -57,5 +64,9 @@
         letter-spacing: 0px;
         text-align: left;
         margin-top: 30px;
+    }
+    
+    &__name1 {
+        color: #fefcf7;
     }
 }
