@@ -1,0 +1,119 @@
+.about {
+    width: 1110px;
+    height: 520px;
+    top: 731px;
+    left: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 125px;
+    margin: 0 auto;
+    margin-top: 160px;
+    &__img {
+        border-radius: 8px;
+    }
+    &__text {
+        font-family: "Fraunces" 9pt;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #333d4b;
+    }
+    &__title {
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #333d4b80;
+    }
+}
+.blog {
+    display: flex;
+    align-items: center;
+    background: #272e37;
+    margin-top: 168px;
+    border-radius: 8px;
+    &__div {
+        margin: 85px;
+        width: 540px;
+        height: 210px;
+    }
+    &__title {
+        font-family: "Fraunces" 9pt;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #fefcf7;
+    }
+    &__text {
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #fefcf780;
+        margin-top: 40px;
+    }
+    &__img {
+        margin-top: -80px;
+        margin-bottom: 80px;
+    }
+}
+.state {
+    margin: 0 auto;
+    margin-top: 168px;
+    width: 1045px;
+    height: 366px;
+    top: 2149px;
+    left: 165px;
+    padding: 0px 0px 0.00147247314453125px 0px;
+    &__name {
+        font-family: Fraunces 9pt;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #83888f;
+    }
+}
+.div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__card {
+        margin-top: 75px;
+    }
+    &__title {
+        font-family: Fraunces 9pt;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #333d4b;
+        margin-top: 45px;
+    }
+    &__list {
+        text-decoration: none;
+        font-style: none;
+        margin-top: 25px;
+        list-style: none;
+    }
+    &__items {
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #333d4b;
+    }
+}
