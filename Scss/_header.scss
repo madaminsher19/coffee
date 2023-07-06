@@ -13,12 +13,31 @@
         text-decoration: none;
         color: #83888f;
     }
-    
-    &__a:hover{
-        color: #333D4B;
 
+    &__a:hover {
+        color: #333d4b;
     }
-    &__a1:hover{
-        color: #FEFCF7;
+    &__a1:hover {
+        color: #fefcf7;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .header {
+        margin-top: 20px;
+        &__title {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .header {
+        margin-top: 10px;
+        &__title {
+            list-style: none;
+            display: flex;
+            gap: 10px;
+        }
     }
 }
