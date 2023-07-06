@@ -65,7 +65,7 @@
     }
 }
 .hero--subscribe {
-    height: 450px;
+    // height: 450px;
     background: url(../Img/png/subscribe.png) center;
 
     &__text--subscribe {
@@ -76,5 +76,13 @@
         line-height: 26px;
         letter-spacing: 0px;
         text-align: left;
+    }
+}
+@media only screen and (max-width:900px){
+    .hero{
+        margin-top: 10px;
+        &__content{
+            
+        }
     }
 }
