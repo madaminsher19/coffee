@@ -8,6 +8,10 @@
         justify-content: space-between;
         align-items: center;
     }
+    &__icon i{
+        margin-right: 10px;
+       
+    }
     &__icon i:hover{
         color: #FDD6BA;
     }
