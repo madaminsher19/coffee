@@ -9,6 +9,9 @@
         display: flex;
         gap: 35px;
     }
+    &__title2{
+        display: none;
+    }
     &__a {
         text-decoration: none;
         color: #83888f;
@@ -21,9 +24,9 @@
         color: #fefcf7;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
     .header {
-        margin-top: 20px;
+        margin-top: 0px;
         &__title {
             list-style: none;
             display: flex;
